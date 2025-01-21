@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="1" failures="0" errors="0" time="0.602">
+  <testsuite name="Javascript automated test for sensor module @tests:CS-12 @tests:KXITM4XS49623PY9F2BFRA2S67Y2JSJ @tests:KXITM4GS4X4NFJM8MEBB5BQ939ZQS9M" errors="0" failures="0" skipped="0" timestamp="2024-12-13T13:31:29" time="0.298" tests="1">
+    <testcase classname="Javascript automated test for sensor module @tests:CS-12 @tests:KXITM4XS49623PY9F2BFRA2S67Y2JSJ @tests:KXITM4GS4X4NFJM8MEBB5BQ939ZQS9M sensor module functions correctly" name="Javascript automated test for sensor module @tests:CS-12 @tests:KXITM4XS49623PY9F2BFRA2S67Y2JSJ @tests:KXITM4GS4X4NFJM8MEBB5BQ939ZQS9M sensor module functions correctly" time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ketryx.sample.SensorReadingTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-12-13T13:31:41" hostname="fv-az1567-476" time="0.02">
+  <properties/>
+  <testcase name="Should return" classname="com.ketryx.sample.SensorReadingTest" time="0.015"/>
+  <testcase name="createMouse()" classname="com.ketryx.sample.SensorReadingTest" time="0.001"/>
+  <testcase name="sensorReadingTest()" classname="com.ketryx.sample.SensorReadingTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

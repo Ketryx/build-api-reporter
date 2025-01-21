@@ -1,0 +1,826 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:faac583f-0675-48b1-887f-a6732fe76c05",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-01-16T14:26:34Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "11.0.10",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@11.0.10",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@11.0.10",
+          "publisher": "OWASP Foundation",
+          "authors": [{ "name": "OWASP Foundation" }]
+        }
+      ]
+    },
+    "authors": [{ "name": "OWASP Foundation" }],
+    "lifecycles": [{ "phase": "build" }],
+    "component": {
+      "group": "",
+      "name": "Ketryx-Demo",
+      "version": "latest",
+      "type": "application",
+      "bom-ref": "pkg:pypi/ketryx-demo@latest",
+      "purl": "pkg:pypi/ketryx-demo@latest"
+    },
+    "properties": [{ "name": "cdx:bom:componentTypes", "value": "pypi" }]
+  },
+  "components": [
+    {
+      "authors": [{ "name": "The Abseil Authors" }],
+      "group": "",
+      "name": "absl-py",
+      "version": "1.2.0",
+      "description": "Abseil Python Common Libraries, see https://github.com/abseil/abseil-py.",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "5d15f85b8cc859c6245bc9886ba664460ed96a6fee895416caa37d669ee74a9a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/absl-py@1.2.0",
+      "externalReferences": [
+        { "type": "vcs", "url": "https://github.com/abseil/abseil-py" }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/absl-py@1.2.0",
+      "properties": [
+        { "name": "cdx:pypi:latest_version", "value": "2.1.0" },
+        { "name": "cdx:pypi:resolved_from", "value": "absl-py" }
+      ]
+    },
+    {
+      "authors": [
+        { "name": "Robert Bradshaw" },
+        { "name": " Stefan Behnel" },
+        { "name": " Dag Seljebotn" },
+        { "name": " Greg Ewing" },
+        { "name": " et al. <cython-devel@python.org>" }
+      ],
+      "group": "",
+      "name": "Cython",
+      "version": "0.29.32",
+      "description": "The Cython compiler for writing C extensions in the Python language.",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "39afb4679b8c6bf7ccb15b24025568f4f9b4d7f9bf3cbd981021f542acecd75b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/cython@0.29.32",
+      "externalReferences": [
+        { "type": "website", "url": "https://cython.org/" }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/cython@0.29.32",
+      "properties": [
+        { "name": "cdx:pypi:latest_version", "value": "3.0.11" },
+        { "name": "cdx:pypi:resolved_from", "value": "cython" }
+      ]
+    },
+    {
+      "authors": [{ "name": "David Bieber <dbieber@google.com>" }],
+      "group": "",
+      "name": "fire",
+      "version": "0.4.0",
+      "description": "A library for automatically generating command line interfaces.",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c5e2b8763699d1142393a46d0e3e790c5eb2f0706082df8f647878842c216a62"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/fire@0.4.0",
+      "externalReferences": [
+        { "type": "vcs", "url": "https://github.com/google/python-fire" }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/fire@0.4.0",
+      "properties": [
+        { "name": "cdx:pypi:latest_version", "value": "0.7.0" },
+        { "name": "cdx:pypi:resolved_from", "value": "fire" }
+      ]
+    },
+    {
+      "authors": [{ "name": "Derek Bailey <derekbailey@google.com>" }],
+      "group": "",
+      "name": "flatbuffers",
+      "version": "1.12",
+      "description": "The FlatBuffers serialization format for Python",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "9e9ef47fa92625c4721036e7c4124182668dc6021d9e7c73704edd395648deb9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/flatbuffers@1.12",
+      "externalReferences": [
+        { "type": "vcs", "url": "https://google.github.io/flatbuffers/" }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/flatbuffers@1.12",
+      "properties": [
+        { "name": "cdx:pypi:latest_version", "value": "24.12.23" },
+        { "name": "cdx:pypi:resolved_from", "value": "flatbuffers" }
+      ],
+      "tags": ["serialization"]
+    },
+    {
+      "authors": [
+        { "name": "Brian McFee" },
+        { "name": " librosa development team <brian.mcfee@nyu.edu>" }
+      ],
+      "group": "",
+      "name": "librosa",
+      "version": "0.8.1",
+      "description": "Python module for audio and music processing",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "fd381e2d7067d4d4cf7691f2ef3620ef62a8aa6445dcf407e3328254692f742a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC",
+            "url": "https://opensource.org/licenses/ISC"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/librosa@0.8.1",
+      "externalReferences": [
+        { "type": "website", "url": "https://librosa.org" }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/librosa@0.8.1",
+      "properties": [
+        { "name": "cdx:pypi:latest_version", "value": "0.10.2.post1" },
+        { "name": "cdx:pypi:resolved_from", "value": "librosa" }
+      ]
+    },
+    {
+      "authors": [{ "name": "lxml dev team <lxml-dev@lxml.de>" }],
+      "group": "",
+      "name": "lxml",
+      "version": "4.9.1",
+      "description": "Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "98cafc618614d72b02185ac583c6f7796202062c41d2eeecdf07820bad3295ed"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "0BSD",
+            "url": "https://opensource.org/licenses/0BSD"
+          }
+        },
+        {
+          "license": {
+            "id": "BSD-3-Clause",
+            "url": "https://opensource.org/licenses/BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/lxml@4.9.1",
+      "externalReferences": [{ "type": "website", "url": "https://lxml.de/" }],
+      "type": "library",
+      "bom-ref": "pkg:pypi/lxml@4.9.1",
+      "properties": [
+        { "name": "cdx:pypi:latest_version", "value": "5.3.0" },
+        { "name": "cdx:pypi:resolved_from", "value": "lxml" }
+      ],
+      "tags": ["api", "xml"]
+    },
+    {
+      "authors": [
+        { "name": "John D. Hunter" },
+        {
+          "name": " Michael Droettboom <Unknown <matplotlib-users@python.org>>"
+        }
+      ],
+      "group": "",
+      "name": "matplotlib",
+      "version": "3.4.3",
+      "description": "Python plotting package",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "5c988bb43414c7c2b0a31bd5187b4d27fd625c080371b463a6d422047df78913"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "PSF-2.0",
+            "url": "https://opensource.org/licenses/PSF-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/matplotlib@3.4.3",
+      "type": "framework",
+      "bom-ref": "pkg:pypi/matplotlib@3.4.3",
+      "properties": [
+        { "name": "cdx:pypi:latest_version", "value": "3.10.0" },
+        { "name": "cdx:pypi:resolved_from", "value": "matplotlib" }
+      ],
+      "tags": ["framework"]
+    },
+    {
+      "authors": [{ "name": "Google LLC" }],
+      "group": "",
+      "name": "neural-structured-learning",
+      "version": "1.4.0",
+      "description": "Neural Structured Learning is an open-source TensorFlow framework to train neural networks with structured signals",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "bdf98943f09a3e1aaad8f321d668fddb52663f2ca950046ca964a524d9464e2a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/neural-structured-learning@1.4.0",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/tensorflow/neural-structured-learning"
+        }
+      ],
+      "type": "framework",
+      "bom-ref": "pkg:pypi/neural-structured-learning@1.4.0",
+      "tags": ["framework"]
+    },
+    {
+      "group": "",
+      "name": "numba",
+      "version": "0.53",
+      "description": "compiling Python code using LLVM",
+      "licenses": [
+        {
+          "license": {
+            "id": "0BSD",
+            "url": "https://opensource.org/licenses/0BSD"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/numba@0.53",
+      "externalReferences": [
+        { "type": "website", "url": "https://numba.pydata.org" }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/numba@0.53",
+      "properties": [
+        { "name": "cdx:pypi:latest_version", "value": "0.60.0" },
+        { "name": "cdx:pypi:resolved_from", "value": "numba" }
+      ]
+    },
+    {
+      "authors": [{ "name": "Travis E. Oliphant et al." }],
+      "group": "",
+      "name": "numpy",
+      "version": "1.23.1",
+      "description": "Fundamental package for array computing in Python",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b15c3f1ed08df4980e02cc79ee058b788a3d0bef2fb3c9ca90bb8cbd5b8a3a04"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "0BSD",
+            "url": "https://opensource.org/licenses/0BSD"
+          }
+        },
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/numpy@1.23.1",
+      "type": "framework",
+      "bom-ref": "pkg:pypi/numpy@1.23.1",
+      "properties": [
+        { "name": "cdx:pypi:latest_version", "value": "2.2.1" },
+        { "name": "cdx:pypi:resolved_from", "value": "numpy" }
+      ],
+      "tags": ["framework"]
+    },
+    {
+      "authors": [{ "name": "\"Jeffrey A. Clark\" <aclark@aclark.net>" }],
+      "group": "",
+      "name": "pillow",
+      "version": "9.2.0",
+      "description": "Python Imaging Library (Fork)",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "a9c9bc489f8ab30906d7a85afac4b4944a572a7432e00698a7239f44a44e6efb"
+        }
+      ],
+      "licenses": [{ "expression": "CMU License (MIT-CMU)" }],
+      "purl": "pkg:pypi/pillow@9.2.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/pillow@9.2.0",
+      "properties": [
+        { "name": "cdx:pypi:latest_version", "value": "11.1.0" },
+        { "name": "cdx:pypi:resolved_from", "value": "pillow" }
+      ]
+    },
+    {
+      "authors": [{ "name": "Kirill Simonov <xi@resolvent.net>" }],
+      "group": "",
+      "name": "PyYAML",
+      "version": "6.0",
+      "description": "YAML parser and emitter for Python",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "d4db7c7aef085872ef65a8fd7d6d09a14ae91f691dec3e87ee5ee0539d516f53"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/pyyaml@6.0",
+      "externalReferences": [
+        { "type": "website", "url": "https://pyyaml.org/" }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/pyyaml@6.0",
+      "properties": [
+        { "name": "cdx:pypi:latest_version", "value": "6.0.2" },
+        { "name": "cdx:pypi:resolved_from", "value": "pyyaml" }
+      ]
+    },
+    {
+      "authors": [{ "name": "Patrik Dufresne <patrik@ikus-soft.com>" }],
+      "group": "",
+      "name": "rdiffweb",
+      "version": "2.4.10",
+      "description": "A web interface to rdiff-backup repositories.",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "676c59129932bbbf73e44991bfc6385670a5e732d5987e402bc30719f1260c9b"
+        }
+      ],
+      "licenses": [{ "expression": "GNU General Public License v3 (GPLv3)" }],
+      "purl": "pkg:pypi/rdiffweb@2.4.10",
+      "externalReferences": [
+        { "type": "website", "url": "https://rdiffweb.org/" }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/rdiffweb@2.4.10",
+      "properties": [
+        { "name": "cdx:pypi:latest_version", "value": "2.9.5" },
+        { "name": "cdx:pypi:resolved_from", "value": "rdiffweb" }
+      ],
+      "tags": ["web"]
+    },
+    {
+      "authors": [{ "name": "Google Inc. <opensource@google.com>" }],
+      "group": "",
+      "name": "scann",
+      "version": "1.2.6",
+      "description": "Scalable Nearest Neighbor search library",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "cac5f1fdefe8d67c3fdf6a780cc017494ceb2d6f0092609c4f87b49cb8889f0c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/scann@1.2.6",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/google-research/google-research/tree/master/scann"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/scann@1.2.6",
+      "properties": [
+        { "name": "cdx:pypi:latest_version", "value": "1.3.4" },
+        { "name": "cdx:pypi:resolved_from", "value": "scann" }
+      ]
+    },
+    {
+      "authors": [{ "name": "Taku Kudo <taku@google.com>" }],
+      "group": "",
+      "name": "sentencepiece",
+      "version": "0.1.97",
+      "description": "SentencePiece python wrapper",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "6f249c8f1852893be86eae66b19d522c5fb30bbad4fe2d1b07f06fdc86e1907e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        },
+        { "license": { "name": "Apache" } }
+      ],
+      "purl": "pkg:pypi/sentencepiece@0.1.97",
+      "externalReferences": [
+        { "type": "vcs", "url": "https://github.com/google/sentencepiece" }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/sentencepiece@0.1.97",
+      "properties": [
+        { "name": "cdx:pypi:latest_version", "value": "0.2.0" },
+        { "name": "cdx:pypi:resolved_from", "value": "sentencepiece" }
+      ]
+    },
+    {
+      "authors": [{ "name": "Benjamin Peterson <benjamin@python.org>" }],
+      "group": "",
+      "name": "six",
+      "version": "1.16.0",
+      "description": "Python 2 and 3 compatibility utilities",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/six@1.16.0",
+      "externalReferences": [
+        { "type": "vcs", "url": "https://github.com/benjaminp/six" }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/six@1.16.0",
+      "properties": [
+        { "name": "cdx:pypi:latest_version", "value": "1.17.0" },
+        { "name": "cdx:pypi:resolved_from", "value": "six" }
+      ]
+    },
+    {
+      "authors": [{ "name": "Google Inc. <packages@tensorflow.org>" }],
+      "group": "",
+      "name": "tensorflow",
+      "version": "2.7.0",
+      "description": "TensorFlow is an open source machine learning framework for everyone.",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "12f19d6c7161ffef21e69a14e60aaaf47dc25bff133ac954839f1308262b29bf"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/tensorflow@2.7.0",
+      "externalReferences": [
+        { "type": "website", "url": "https://www.tensorflow.org/" }
+      ],
+      "type": "framework",
+      "bom-ref": "pkg:pypi/tensorflow@2.7.0",
+      "properties": [
+        { "name": "cdx:pypi:latest_version", "value": "2.18.0" },
+        { "name": "cdx:pypi:resolved_from", "value": "tensorflow" }
+      ],
+      "tags": ["framework"]
+    },
+    {
+      "authors": [{ "name": "Google Inc. <opensource@google.com>" }],
+      "group": "",
+      "name": "tensorflow-addons",
+      "version": "0.17.1",
+      "description": "TensorFlow Addons.",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "51f4679fac03d668777634d4cd30a5fc5d72b2a58af94824a83cd37343ed90e7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/tensorflow-addons@0.17.1",
+      "type": "framework",
+      "bom-ref": "pkg:pypi/tensorflow-addons@0.17.1",
+      "properties": [
+        { "name": "cdx:pypi:latest_version", "value": "0.23.0" },
+        { "name": "cdx:pypi:resolved_from", "value": "tensorflow-addons" }
+      ],
+      "tags": ["framework"]
+    },
+    {
+      "authors": [{ "name": "Google Inc. <packages@tensorflow.org>" }],
+      "group": "",
+      "name": "tensorflow-datasets",
+      "version": "4.6.0",
+      "description": "tensorflow/datasets is a library of datasets ready to use with TensorFlow.",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "fc1f163668d449cb2280dedc458c25875aa92b665889a394dbd3dcff45978bfa"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/tensorflow-datasets@4.6.0",
+      "externalReferences": [
+        { "type": "vcs", "url": "https://github.com/tensorflow/datasets" }
+      ],
+      "type": "framework",
+      "bom-ref": "pkg:pypi/tensorflow-datasets@4.6.0",
+      "properties": [
+        { "name": "cdx:pypi:latest_version", "value": "4.9.7" },
+        { "name": "cdx:pypi:resolved_from", "value": "tensorflow-datasets" }
+      ],
+      "tags": ["framework"]
+    },
+    {
+      "authors": [{ "name": "Google LLC <packages@tensorflow.org>" }],
+      "group": "",
+      "name": "tensorflow-hub",
+      "version": "0.12.0",
+      "description": "TensorFlow Hub is a library to foster the publication, discovery, and consumption of reusable parts of machine learning models.",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "822fe5f7338c95efcc3a534011c6689e4309ba2459def87194179c4de8a6e1fc"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/tensorflow-hub@0.12.0",
+      "externalReferences": [
+        { "type": "vcs", "url": "https://github.com/tensorflow/hub" }
+      ],
+      "type": "framework",
+      "bom-ref": "pkg:pypi/tensorflow-hub@0.12.0",
+      "properties": [
+        { "name": "cdx:pypi:latest_version", "value": "0.16.1" },
+        { "name": "cdx:pypi:resolved_from", "value": "tensorflow-hub" }
+      ],
+      "tags": ["framework"]
+    },
+    {
+      "authors": [{ "name": "Google LLC <no-reply@google.com>" }],
+      "group": "",
+      "name": "tensorflow-model-optimization",
+      "version": "0.7.3",
+      "description": "A suite of tools that users, both novice and advanced can use to optimize machine learning models for deployment and execution.",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "5452804f99edcf93390a1e6d84949022e008e5ea2b593365694bc768f973186b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/tensorflow-model-optimization@0.7.3",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/tensorflow/model-optimization"
+        }
+      ],
+      "type": "framework",
+      "bom-ref": "pkg:pypi/tensorflow-model-optimization@0.7.3",
+      "properties": [
+        { "name": "cdx:pypi:latest_version", "value": "0.8.0" },
+        {
+          "name": "cdx:pypi:resolved_from",
+          "value": "tensorflow-model-optimization"
+        }
+      ],
+      "tags": ["framework", "tools"]
+    },
+    {
+      "authors": [{ "name": "Google LLC <opensource@google.com>" }],
+      "group": "",
+      "name": "tensorflowjs",
+      "version": "3.19.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "db8daa84dc7d3c69dfb75910df7b54bbecee07dd69ee91a4b814c76717a3531f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/tensorflowjs@3.19.0",
+      "externalReferences": [
+        { "type": "website", "url": "https://js.tensorflow.org/" }
+      ],
+      "type": "framework",
+      "bom-ref": "pkg:pypi/tensorflowjs@3.19.0",
+      "properties": [
+        { "name": "cdx:pypi:latest_version", "value": "4.22.0" },
+        { "name": "cdx:pypi:resolved_from", "value": "tensorflowjs" }
+      ],
+      "tags": ["framework"]
+    },
+    {
+      "authors": [{ "name": "Google Inc. <packages@tensorflow.org>" }],
+      "group": "",
+      "name": "tf-models-official",
+      "version": "2.3.0",
+      "description": "TensorFlow Official Models",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "ce84f95c6d16a4be5ac03b879c500fec856c913fb425d160793a6c163e622a80"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/tf-models-official@2.3.0",
+      "externalReferences": [
+        { "type": "vcs", "url": "https://github.com/tensorflow/models" }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/tf-models-official@2.3.0",
+      "properties": [
+        { "name": "cdx:pypi:latest_version", "value": "2.18.0" },
+        { "name": "cdx:pypi:resolved_from", "value": "tf-models-official" }
+      ],
+      "tags": ["native"]
+    },
+    {
+      "authors": [
+        { "name": "Google" },
+        { "name": " LLC. <packages@tensorflow.org>" }
+      ],
+      "group": "",
+      "name": "tflite-support",
+      "version": "0.4.0",
+      "description": "TFLite Support is a toolkit that helps users to develop ML and deploy TFLite models onto mobile devices.",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "ab59ef1d7d6fe6b664a53676e64d2df957bf3f6ebbe85199ad826f31b10dac69"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/tflite-support@0.4.0",
+      "externalReferences": [
+        { "type": "website", "url": "https://www.tensorflow.org/" }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/tflite-support@0.4.0",
+      "properties": [
+        { "name": "cdx:pypi:latest_version", "value": "0.4.4" },
+        { "name": "cdx:pypi:resolved_from", "value": "tflite-support" }
+      ],
+      "tags": ["ml"]
+    },
+    {
+      "authors": [{ "name": "Andrey Petrov <andrey.petrov@shazow.net>" }],
+      "group": "",
+      "name": "urllib3",
+      "version": "1.25.11",
+      "description": "HTTP library with thread-safe connection pooling, file post, and more.",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "f5321fbe4bf3fefa0efd0bfe7fb14e90909eb62a48ccda331726b4319897dd5e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/urllib3@1.25.11",
+      "type": "library",
+      "bom-ref": "pkg:pypi/urllib3@1.25.11",
+      "properties": [
+        { "name": "cdx:pypi:latest_version", "value": "2.3.0" },
+        { "name": "cdx:pypi:resolved_from", "value": "urllib3" }
+      ]
+    }
+  ],
+  "dependencies": [{ "ref": "pkg:pypi/ketryx-demo@latest", "dependsOn": [] }],
+  "annotations": []
+}

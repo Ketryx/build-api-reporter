@@ -1,0 +1,21 @@
+# ketryx-config.yml
+builds:
+  - name: sbom
+    type: sbom
+    artifacts:
+      - type: cyclonedx
+        file: examples/example_sbom.cdx.json
+  - name: js-build
+    type: test-results
+    artifacts:
+      junit:
+        - examples/example_jest_report_junit.xml
+      cucumber:
+        - examples/example_cucumber_report.json
+
+  - name: java-build
+    type: test-results
+    artifacts:
+      junit:
+        - examples/example_report_junit.xml
+      cucumber: []

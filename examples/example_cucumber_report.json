@@ -1,0 +1,454 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "data-module;train-test-contamination-checks",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Train-test contamination checks",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Application is open",
+            "match": {
+              "location": "features/steps/basic.ts:132"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1019865
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Data of 8 is entered",
+            "match": {
+              "location": "features/steps/basic.ts:139"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 176171
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Form is submitted",
+            "match": {
+              "location": "features/steps/basic.ts:151"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 100968
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Sensor is not read",
+            "match": {
+              "location": "features/steps/basic.ts:170"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 99267,
+              "error_message": "Error: function uses multiple asynchronous interfaces: callback and promise\nto use the callback interface: do not return a promise\nto use the promise interface: remove the last argument to the function\n    at Object.run (/home/runner/work/demo-ketryx/demo-ketryx/js-src/node_modules/@cucumber/cucumber/src/user_code_runner.ts:50:16)\n    at Object.run (/home/runner/work/demo-ketryx/demo-ketryx/js-src/node_modules/@cucumber/cucumber/src/runtime/step_runner.ts:50:41)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at TestCaseRunner.invokeStep (/home/runner/work/demo-ketryx/demo-ketryx/js-src/node_modules/@cucumber/cucumber/src/runtime/test_case_runner.ts:138:12)\n    at TestCaseRunner.runStep (/home/runner/work/demo-ketryx/demo-ketryx/js-src/node_modules/@cucumber/cucumber/src/runtime/test_case_runner.ts:335:20)\n    at /home/runner/work/demo-ketryx/demo-ketryx/js-src/node_modules/@cucumber/cucumber/src/runtime/test_case_runner.ts:241:34\n    at TestCaseRunner.aroundTestStep (/home/runner/work/demo-ketryx/demo-ketryx/js-src/node_modules/@cucumber/cucumber/src/runtime/test_case_runner.ts:171:28)\n    at TestCaseRunner.runAttempt (/home/runner/work/demo-ketryx/demo-ketryx/js-src/node_modules/@cucumber/cucumber/src/runtime/test_case_runner.ts:219:7)\n    at TestCaseRunner.run (/home/runner/work/demo-ketryx/demo-ketryx/js-src/node_modules/@cucumber/cucumber/src/runtime/test_case_runner.ts:189:29)\n    at Runtime.runTestCase (/home/runner/work/demo-ketryx/demo-ketryx/js-src/node_modules/@cucumber/cucumber/src/runtime/index.ts:91:20)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "An error message is shown",
+            "match": {
+              "location": "features/steps/basic.ts:182"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tests:spec-data",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "data-module",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Data module",
+    "tags": [],
+    "uri": "features/ai-data.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "model;test-model-drift",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Test Model Drift",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Application is open",
+            "match": {
+              "location": "features/steps/basic.ts:132"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 76233
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Data of 8 is entered",
+            "match": {
+              "location": "features/steps/basic.ts:139"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 82395
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Form is submitted",
+            "match": {
+              "location": "features/steps/basic.ts:151"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 69521
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Sensor is not read",
+            "match": {
+              "location": "features/steps/basic.ts:170"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 54372,
+              "error_message": "Error: function uses multiple asynchronous interfaces: callback and promise\nto use the callback interface: do not return a promise\nto use the promise interface: remove the last argument to the function\n    at Object.run (/home/runner/work/demo-ketryx/demo-ketryx/js-src/node_modules/@cucumber/cucumber/src/user_code_runner.ts:50:16)\n    at Object.run (/home/runner/work/demo-ketryx/demo-ketryx/js-src/node_modules/@cucumber/cucumber/src/runtime/step_runner.ts:50:41)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at TestCaseRunner.invokeStep (/home/runner/work/demo-ketryx/demo-ketryx/js-src/node_modules/@cucumber/cucumber/src/runtime/test_case_runner.ts:138:12)\n    at TestCaseRunner.runStep (/home/runner/work/demo-ketryx/demo-ketryx/js-src/node_modules/@cucumber/cucumber/src/runtime/test_case_runner.ts:335:20)\n    at /home/runner/work/demo-ketryx/demo-ketryx/js-src/node_modules/@cucumber/cucumber/src/runtime/test_case_runner.ts:241:34\n    at TestCaseRunner.aroundTestStep (/home/runner/work/demo-ketryx/demo-ketryx/js-src/node_modules/@cucumber/cucumber/src/runtime/test_case_runner.ts:171:28)\n    at TestCaseRunner.runAttempt (/home/runner/work/demo-ketryx/demo-ketryx/js-src/node_modules/@cucumber/cucumber/src/runtime/test_case_runner.ts:219:7)\n    at TestCaseRunner.run (/home/runner/work/demo-ketryx/demo-ketryx/js-src/node_modules/@cucumber/cucumber/src/runtime/test_case_runner.ts:189:29)\n    at Runtime.runTestCase (/home/runner/work/demo-ketryx/demo-ketryx/js-src/node_modules/@cucumber/cucumber/src/runtime/index.ts:91:20)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "An error message is shown",
+            "match": {
+              "location": "features/steps/basic.ts:182"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tests:spec-model",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "model",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Model",
+    "tags": [],
+    "uri": "features/ai-model.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "sensor-module;test-sensor-reading-warning-(cucumber)",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Test Sensor Reading Warning (Cucumber)",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Application is open",
+            "match": {
+              "location": "features/steps/basic.ts:132"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 141255
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Data of 8 is entered",
+            "match": {
+              "location": "features/steps/basic.ts:139"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 93004
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Form is submitted",
+            "match": {
+              "location": "features/steps/basic.ts:151"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 170701
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Sensor \"First Name\" is not read",
+            "match": {
+              "location": "features/steps/basic.ts:158"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 242916
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "An error message is shown",
+            "match": {
+              "location": "features/steps/basic.ts:182"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 121679
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tests:spec-sensor-reading-warning",
+            "line": 3
+          },
+          {
+            "name": "@tests:KD-1",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "sensor-module;test-sensor-reading-warning-(cucumber)",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Test Sensor Reading Warning (Cucumber)",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Application is open",
+            "match": {
+              "location": "features/steps/basic.ts:132"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 129965
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Data of 8 is entered",
+            "match": {
+              "location": "features/steps/basic.ts:139"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 76313
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Form is submitted",
+            "match": {
+              "location": "features/steps/basic.ts:151"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 118471
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Sensor \"Last Name\" is not read",
+            "match": {
+              "location": "features/steps/basic.ts:158"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 81151
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "An error message is shown",
+            "match": {
+              "location": "features/steps/basic.ts:182"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48511
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tests:spec-sensor-reading-warning",
+            "line": 3
+          },
+          {
+            "name": "@tests:KD-1",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "sensor-module;test-sensor-reading-warning-(cucumber)",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Test Sensor Reading Warning (Cucumber)",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Application is open",
+            "match": {
+              "location": "features/steps/basic.ts:132"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54281
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Data of 8 is entered",
+            "match": {
+              "location": "features/steps/basic.ts:139"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61194
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Form is submitted",
+            "match": {
+              "location": "features/steps/basic.ts:151"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59702
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Sensor \"Email\" is not read",
+            "match": {
+              "location": "features/steps/basic.ts:158"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 121558
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "An error message is shown",
+            "match": {
+              "location": "features/steps/basic.ts:182"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61235
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tests:spec-sensor-reading-warning",
+            "line": 3
+          },
+          {
+            "name": "@tests:KD-1",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "sensor-module",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Sensor module",
+    "tags": [],
+    "uri": "features/sensor-module.feature"
+  }
+]
