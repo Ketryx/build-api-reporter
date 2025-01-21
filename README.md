@@ -1,4 +1,4 @@
-# Ketryx Test Results Reporter
+# Ketryx Build API Utility
 
 A Python utility for uploading and reporting test results and Software Bill of Materials (SBOM) to the Ketryx platform.
 
@@ -20,8 +20,8 @@ A Python utility for uploading and reporting test results and Software Bill of M
 
 1. Clone this repository:
    ```bash
-   git clone [repository-url]
-   cd [repository-name]
+   git clone git@github.com:Ketryx/build-api-reporter.git
+   cd build-api-reporter
    ```
 
 2. Create and activate a virtual environment:
